@@ -278,13 +278,13 @@ h3 { font-size: clamp(1.1rem, 2.5vw, 1.4rem); }
   animation: pulse 2.5s infinite;
 }
 
-.hero-title {
-  display: flex;
-  flex-direction: column;
-  font-family: var(--font-heading);
-  line-height: .95;
-  margin-bottom: .8rem;
+.hero-title img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
 }
+
 .title-drive {
   font-size: clamp(3.5rem, 8vw, 7rem);
   color: var(--white);
